@@ -61,8 +61,8 @@ Delete all unstaged
 `git clean -f` (force)
 
 ### Rename Files
-`git add <newfilename>
-git rm <oldfilename>`
+`git add <newfilename>`
+`git rm <oldfilename>`
 or
 `git mv <old> <new>`
 
@@ -118,10 +118,10 @@ git stash drop stash@{0}`
 git branch --merged`
 
 ### git Remotes
-`git remote
-git push
-git pull
-git fetch
-git remote add <alias> <URL>`
+`git remote`
+`git push`
+`git pull`
+`git fetch`
+`git remote add <alias> <URL>`
 `git branch --set-upstream <branch> <alias/branch>`
-`git push -u <alias> <branch> `(track this remote branch)
+`git push -u <alias> <branch>` (track this remote branch)
